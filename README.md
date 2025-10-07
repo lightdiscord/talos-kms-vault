@@ -3,6 +3,9 @@
 Proxy between a Talos node and a Hashicorp Vault instance to enable KMS disk encryption.
 This project is a proof of concept.
 
+> [!WARNING]
+> This repository is a proof of concept, for a production ready repository see https://github.com/SoulKyu/talos-kms-vault
+
 ## Usage
 
 The Vault client uses the environment variables to configure itself, `VAULT_ADDR` and `VAULT_TOKEN` should be used.
